@@ -1,3 +1,5 @@
+package com.ece354.projectmanager.model;
+
 public class TeamMember extends User {
     public TeamMember(String username, String password) {
         super(username, password);

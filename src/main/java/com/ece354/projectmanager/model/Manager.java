@@ -1,3 +1,5 @@
+package com.ece354.projectmanager.model;
+
 import java.util.ArrayList;
 import java.util.List;
 
