@@ -1,0 +1,20 @@
+ProjectManager v0.1
+
+This is our v0.1 so you can only manage projects, tasks, and user roles
+
+- Allows the code to be able to distinguish between 'User', 'TeamMember', and 'Manager'.
+- Allows a manager to create projects with a name, description, start date, and due date while making sure all the feilds are filled out.
+- Allows the manager to add tasks to a project and update their status to 'Not Started', 'In Progress', or 'Completed'.
+- Calculates  the overall project completion percentage based on tasks completed.
+
+Main - Entry point that the user uses to access everything
+User - Base class that rolw checks and credentials
+Manager - Subclass of user that gives permissions to create and manage projects
+TeamMember - Subclass of user that allows user to update statuses
+Project - Creates a project, holds a list of tasks, and calculates overall progress
+Task - Holds an individual task and manages its statuses
+TaskStatus - Defines 'Not Started', 'In Progress', 'Completed'
+
+How to run:
+-Save all files into the same directory and open the code via the terminal
+-The program will not use any user inputs but will run an input on its own to show that all the classes work.
