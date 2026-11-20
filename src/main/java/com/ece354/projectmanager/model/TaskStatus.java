@@ -1,3 +1,5 @@
+package com.ece354.projectmanager.model;
+
 public class TaskStatus {
     public static final String NOT_STARTED = "Not Started";
     public static final String IN_PROGRESS = "In Progress";

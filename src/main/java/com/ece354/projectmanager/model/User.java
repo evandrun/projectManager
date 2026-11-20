@@ -1,3 +1,5 @@
+package com.ece354.projectmanager.model;
+
 public class User {
     protected String username;
     protected String password;

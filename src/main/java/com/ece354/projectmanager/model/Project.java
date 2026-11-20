@@ -1,3 +1,5 @@
+package com.ece354.projectmanager.model;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,8 +48,24 @@ public class Project {
         overallProgress = (int) ((double) completedCount / tasks.size() * 100);
     }
 
+    public int getProjectId() {
+        return projectId;
+    }
+
     public String getName() {
         return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getStartDate() {
+        return startDate;
+    }
+
+    public String getDueDate() {
+        return dueDate;
     }
 
     public List<Task> getTasks() {
